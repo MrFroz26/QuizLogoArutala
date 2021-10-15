@@ -300,11 +300,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 66b7ebf22e12055419bd5ea1510c230b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.8054
+      value: 1.2847497
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 66b7ebf22e12055419bd5ea1510c230b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5432
+      value: 1.0984807
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 66b7ebf22e12055419bd5ea1510c230b, type: 3}
       propertyPath: m_LocalScale.z
@@ -312,15 +312,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 66b7ebf22e12055419bd5ea1510c230b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 66b7ebf22e12055419bd5ea1510c230b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1537
+      value: 0.1237
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 66b7ebf22e12055419bd5ea1510c230b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.011
+      value: 0.0044
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 66b7ebf22e12055419bd5ea1510c230b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -356,6 +356,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66b7ebf22e12055419bd5ea1510c230b, type: 3}
+--- !u!1 &99011486 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 66b7ebf22e12055419bd5ea1510c230b, type: 3}
+  m_PrefabInstance: {fileID: 99011485}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &99011487
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99011486}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d6a3ad17b56c19b47989228d6c788ef6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &658079025
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,7 +430,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 702248866}
+  - {fileID: 1561512813}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -603,36 +627,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!21 &702248866
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'logoquiz_1_scaledMaterial
-
-    -6120'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9414e8cc307747688da5a45a4adc00c0, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,6 +836,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1561512813
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'logoquiz_1_scaledMaterial
+
+    24438'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9414e8cc307747688da5a45a4adc00c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &1790627350
 GameObject:
   m_ObjectHideFlags: 0
